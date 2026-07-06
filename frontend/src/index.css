@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-gold-50: #fdfbf7;
+  --color-gold-100: #faf3e6;
+  --color-gold-200: #f1e0be;
+  --color-gold-300: #e5cb93;
+  --color-gold-400: #d9b775; /* Elegant Light Gold */
+  --color-gold-500: #c5a059; /* Elegant Gold Accent */
+  --color-gold-600: #b08945;
+  --color-gold-700: #937033;
+  --color-gold-800: #765624;
+  --color-gold-900: #593f18;
+  --color-gold-950: #38240a;
+}
+
+/* Custom smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom modern scrollbar for the premium look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f1f1f;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a059;
+}
+
+/* Image selection prevention for modern UI feel */
+img {
+  user-select: none;
+}
+
+/* Add custom animations */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.15;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.25;
+    transform: scale(1.05);
+  }
+}
+
+.ambient-glow-1 {
+  animation: pulseGlow 10s ease-in-out infinite;
+}
+
+.ambient-glow-2 {
+  animation: pulseGlow 14s ease-in-out infinite;
+}

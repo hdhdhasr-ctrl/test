@@ -1,0 +1,8 @@
+{
+  "name": "ZNNK Studio",
+  "description": "Ekskluzywna strona internetowa dla premium salonu fryzjerskiego ZNNK Studio, wyposażona w interaktywny cennik usług, nowoczesną galerię prac, pełną responsywność oraz bezpieczny system rezerwacji online połączony z powiadomieniami e-mail przez Resend API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
